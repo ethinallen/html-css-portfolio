@@ -1,0 +1,61 @@
+* {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.home-page {
+    margin: -10px;
+    width: 100%;
+    padding: 30px;
+    font-size: large;
+    background-color: rgb(8, 8, 107);
+    color: white;
+}
+
+.home-page > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+.mid-homepage {
+    padding: 100px;
+    text-align: center;
+}
+
+.selfie > img {
+    height: 400px;
+    width: 305px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info {
+    text-align: center;
+}
+
+.garden-store {
+    padding: 100px;
+    text-align: center;
+}
+
+.dog-adoption {
+    padding: 100px;
+    text-align: center;
+}
+
+.pics > img {
+    height: 400px;
+    width: 305px;
+}
+
+.resume-header {
+    text-align: center;
+}
+
+.whole-foods {
+
+}
