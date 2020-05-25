@@ -2,6 +2,12 @@
     font-family: 'Raleway', sans-serif; 
 }
 
+.home {
+    background-image: url(./photos/cloud_3.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
 body {
     background-image: url(./photos/cloud_3.jpg);
     background-size: cover;
@@ -52,7 +58,7 @@ li {
     display: inline-block;
 }
 .mid-homepage {
-    padding: 100px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -62,6 +68,14 @@ li {
     border-radius: 25px;
     display: block;
     margin: 0 auto;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 25px;
 }
 
 .info {
