@@ -12,14 +12,40 @@ body {
     width: 100%;
     padding: 30px;
     font-size: large;
-    background-color: rgb(8, 8, 107);
+    background-color: rgb(37, 120, 214);
     color: white;
+    display: flex; 
+    align-items: center;    
+}
+
+.head {
+ 
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+ 
+}
+
+.tabs {
+    padding-left: 5vw;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+a:hover {
+    color: lightblue;
 }
 
 .home-page > ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.github {
+    width: 60px;
+    height: 60px;
 }
 
 li {
