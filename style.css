@@ -2,6 +2,11 @@
     font-family: 'Raleway', sans-serif; 
 }
 
+body {
+    background-image: url(./photos/cloud_3.jpg);
+    background-size: cover;
+}
+
 .home-page {
     margin: -10px;
     width: 100%;
@@ -48,7 +53,7 @@ li {
 }
 
 .pics > img {
-    height: 400px;
+    height: auto;
     width: 305px;
 }
 
